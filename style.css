@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #E91E63;
+  color: white;
+}
+
+.inf {
+  display: inline-block;
+  padding-right: 40%;
+}
+
+.inf i {
+  margin-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 200px;
+}
+
+.social {
+  display: inline;
+  text-align: right;
+}
+
+.social a {
+  border: 1.5px solid;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  transition: 0.2s;
+}
+
+.social a:hover {
+  background-color: white;
+  color: #E91E63;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+}
+
+.cell {
+  flex: 1;
+}
+
+#cell-1 {
+  background: linear-gradient(to right, #61045F, #AA076B);
+  color: white;
+  text-align: center;
+}
+
+.head-text {
+  width: 70%;
+  line-height: 2;
+  margin-left: 100px;
+}
+
+#cell-1 h1 {
+  font-size: 42px;
+  margin-top: 60px;
+}
+
+#cell-1 p {
+  line-height: 35px;
+}
+
+.z-sanal-img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+  background-color: #E91E63;
+  border-radius: 15px;
+}
+
+.btn-link:hover {
+  color: #E91E63;
+  background-color: white;
+}
+
+.btn-link:visited {
+  background-color: #E91E63;
+  color: white;
+}
+
+.btn-link:focus {
+  background-color: #E91E63;
+  color: white;
+}
+
+.whoweare {
+  margin-top: 80px;
+}
+
+.firsat {
+  text-align: center;
+  color: #202124;
+  width: 100%;
+}
+
+.firsatlar {
+  width: 60%;
+}
+
+.align-items-center {
+  text-align: center;
+}
+
+.star-img {
+  margin-top: 50px;
+  width: 60px;
+}
+
+.col {
+  line-height: 35px;
+}
+
+.cart {
+  margin-top: 100px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.col-cart {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+
+.buy-btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.equal {
+  padding-bottom: 20px;
+  padding-top: 18px;
+  margin-bottom: 11px;
+}
+
+.faq {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.cart-faq {
+  padding-left: 120px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cart-faq h2 {
+  color: rgb(64, 64, 64);
+}
+
+.cart-faq p {
+  color: rgb(88, 88, 88);
+}
+
+.spec {
+  width: 80%;
+}
+
+.lesson-name {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.topic-line {
+  text-align: left;
+  width: 20%;
+  border: 2px solid #E91E63;
+  opacity: 1;
+}
+
+.unlimited-line {
+  border: 2px solid #E91E63;
+  opacity: 1;
+  width: 30%;
+}
+
+.submission {
+  margin-right: 100px;
+  width: 30%;
+  color: white;
+  background-color: #E91E63;
+}
+.submission ul li{
+  color: white;
+}
+.submission-background {
+  background-image: linear-gradient(#000A83 30%,#000439, #26282c);
+}
+.submission-btn{
+  background-color: #E91E63;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.faq-container{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.bottom-container{
+  padding-top: 100px;
+  color: #BABABA;
+  background-color: #26282c;
+}
+.contact{
+  font-size: 18px;
+}
+.page-link ul{
+  padding-left: 120px;
+}
+.page-link h2{
+  margin-left: 109px;
+}
+.bottom-mar{
+  margin-left: 80px;
+}
+.page-link ul li a{
+  text-decoration: none;
+  color: #BABABA;
+  transition: 0.2s;
+}
+.page-link ul li a:hover{
+  color: white;
+}
+.made-by{
+  color: white;
+  text-align: center;
+  background-color: #26282c;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
